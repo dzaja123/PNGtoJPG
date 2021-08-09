@@ -1,8 +1,8 @@
 import os
 from PIL import Image
 
-read = "/home/dls/Pictures/folder5/" # folder sa .png slikama
-write = "/home/dls/Pictures/folder5/" # folder gde ce se cuvati .jpg slike
+read = "<PUTANJA>" # folder sa .png slikama
+write = "<PUTANJA>" # folder gde ce se cuvati .jpg slike
 
 names = os.listdir(read)
 brojac = 0 # brojac
