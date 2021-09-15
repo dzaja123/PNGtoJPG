@@ -1,3 +1,17 @@
-Simple image converter from PNG to JPG, created in Python.
+# Конвертор PNG формата слике у JPG формат слике
 
-Jednostavan konvertor slika iz PNG formata u JPG, napisan u Pajtonu.
+У програму је потребно дефинисати фолдер са улазним сликама PNG формата, као и фолдер у којем ће се сместити резултати конверзије, то јест, слике JPG формата.
+Програм врши конверзију помоћу библиотеке за обраду слике PIL.
+
+Инсталација библиотеке се постиже следећом командом:
+
+```python
+За верзије Python 3
+
+sudo apt-get install python3-PIL
+
+За верзије Python 2
+
+sudo apt-get install python-PIL
+
+```
